@@ -161,6 +161,27 @@ export function App() {
             onAnimationConfigChange={handleAnimationConfigChange}
           />
         </div>
+
+        <footer className="mt-10 text-center text-sm text-neutral-500">
+          <span>灵感来自 </span>
+          <a
+            href="https://linux.do/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-neutral-300 hover:text-blue-300 transition-colors"
+          >
+            linux.do
+          </a>
+          <span> 被鞭策的 </span>
+          <a
+            href="https://linux.do/u/haleclipse/summary"
+            target="_blank"
+            rel="noreferrer"
+            className="text-neutral-300 hover:text-blue-300 transition-colors"
+          >
+            哈雷佬
+          </a>
+        </footer>
       </div>
     </div>
   );

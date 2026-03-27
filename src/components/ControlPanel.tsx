@@ -269,6 +269,7 @@ export function ControlPanel({
           accent="green"
           onChange={handleDelay}
         />
+        <p className="text-xs text-green-400 -mt-5">用来对准落鞭瞬间</p>
         <div>
           <p className="block text-xs text-neutral-400 mb-2">旋转模式</p>
           <div className="grid grid-cols-2 gap-3">
@@ -292,7 +293,6 @@ export function ControlPanel({
             })}
           </div>
         </div>
-        <p className="text-xs text-green-400">用来对准落鞭瞬间</p>
       </div>
     </div>
   );
