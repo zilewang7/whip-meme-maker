@@ -6,7 +6,7 @@ import {
   parseAvatarTemplate,
   readAndValidateInput,
   readAndValidateUserId,
-} from './_lib/linuxDoServer';
+} from './_lib/linuxDoServer.js';
 
 export async function GET(request: Request): Promise<Response> {
   if (!hasAllowedSiteContext(request)) {

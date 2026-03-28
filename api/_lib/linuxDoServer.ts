@@ -1,5 +1,5 @@
 import { chromium } from 'playwright-core';
-import { extractLinuxDoUserId } from '../../src/lib/linuxDo';
+import { extractLinuxDoUserId } from '../../src/lib/linuxDo.js';
 
 const USER_INPUT_MAX_LENGTH = 200;
 const USER_AVATAR_SIZE = '288';
