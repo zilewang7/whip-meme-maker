@@ -1,5 +1,6 @@
 export type AvatarShape = 'circle' | 'rounded-square';
 export type RotationMode = 'flat' | 'vertical-3d';
+export type LinuxDoLookupStatus = 'idle' | 'loading' | 'success' | 'error';
 
 export interface AvatarConfig {
   readonly size: number;

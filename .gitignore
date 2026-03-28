@@ -31,3 +31,9 @@ downloads/
 *.njsproj
 *.sln
 *.sw?
+
+# Secret files
+.env
+.env.*
+.vercel
+.env*.local

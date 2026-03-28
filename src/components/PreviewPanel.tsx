@@ -221,6 +221,7 @@ export function PreviewPanel({
                   <img
                     src={avatarUrl}
                     alt="Avatar"
+                    crossOrigin={avatarUrl.startsWith('http') ? 'anonymous' : undefined}
                     className="w-full h-full object-cover"
                   />
                 ) : (
